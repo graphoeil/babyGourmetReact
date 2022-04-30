@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('reset.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* /////////////////////////////// */
+/*               BODY              */
+/* /////////////////////////////// */
+body,html{ -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; 
+	font-family: 'Roboto', sans-serif; height: 100%; }
+*{ box-sizing: border-box; text-decoration: none; outline: none; }
+
+/* /////////////////////////////// */
+/*          TYPOS & COULEURS       */
+/* /////////////////////////////// */
+:root{
+	/* Couleurs */
+	--vert: #27ae60;
+	--rouge: #c0392b;
+}
+
+/* /////////////////////////////// */
+/*          CLASSES GLOBALES       */
+/* /////////////////////////////// */
+section{
+	margin: 0 auto;
+	padding: 70px 10px 10px 10px;
+	max-width: 1366px;
+}
